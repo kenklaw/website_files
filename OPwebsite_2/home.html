@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The Other Place</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+ integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<link href="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<!-- Header, Buttons & FB Link Start -->
+
+<body>
+
+
+
+
+<div class="container-fluid p-3 bg-dark text-white">
+    <center>
+    <h1>The Other Place Bar & Grill</h1>
+    <p style="font-size: 20px">Hwy 4 & Hwy 212
+        Hector, MN 55342</p>
+
+    <p style="font-size: 20px">Phone: 320-848-6421</p>
+
+
+
+
+
+
+    <a href="menu.html"> 
+        <button type="button" class="btn btn-secondary btn-lg ">Menu</button>
+        </a>
+
+    <a href="car_night.html">
+        <button type="button" class="btn btn-secondary btn-lg">Car Night</button>
+        </a>
+
+    <button type="button" class="btn btn-secondary btn-lg">Cash Cow</button>
+  
+<div>
+
+  <img src="Pictures/OPmain.jpeg" class="img-fluid my-3" alt="Title Image">
+
+  <p style="font-size: 40px"> Like us on Facebook to stay up to date on current events! </p> 
+
+  <input type="image" src="Pictures/facebook.jpeg" height="60" width="250" onclick="window.location.href = 'https://www.facebook.com/The.Other.Place.Hector/';" />
+  </center>
+
+<!-- Header, Buttons & FB Link End -->
+
+<!-- 
+<div class="row my-5">
+    <div class="col-md-4">
+
+<div class="card" style="width:200px">
+    <img class="card-img-top" src="burger.jpeg" alt="Card image">
+    <div class="card-body">
+      
+      <center><a href="#" class="btn btn-primary">Menu</a></center>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card" style="width:200px">
+    <img class="card-img-top" src="Cars/car_3.jpeg" alt="Card image">
+    <div class="card-body">
+        <center><a href="#" class="btn btn-primary">Car Night</a></center>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="card" style="width:200px">
+    <img class="card-img-top" src="OP.jpeg" alt="Card image">
+    <div class="card-body">
+      <a href="#" class="btn btn-primary">Cash Cow</a>
+    </div>
+  </div>
+</div>
+</div>
+
+ -->
+
+
+
+
+
+
+
+
+  <div class="row my-5">
+    <div class="col-md-4">
+          <img src="Pictures/bar1.png" alt="Lights" style="width:100%">
+    </div>
+    <div class="col-md-4 my-4">
+          <img src="Pictures/bar5.png" alt="Nature" style="width:100%">
+    </div>
+    <div class="col-md-4">
+          <img src="Pictures/bar3.jpg" alt="Fjords" style="width:100%">
+    </div>
+  </div>
+
+  <div class="row my-3">
+    <div class="col-md-4">
+          <img src="Pictures/bar4.png" alt="Lights" style="width:100%">
+    </div>
+    <div class="col-md-4 my-4">
+          <img src="Pictures/OP.jpeg" alt="Nature" style="width:100%" >
+    </div>
+    <div class="col-md-4 ">
+          <img src="Pictures/bar2.png" alt="Fjords" style="width:100%">
+    </div>
+  </div>
+
+
+
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- In development
+
+Create pick up / dine in menu and allow for user to select items to add. 
+
+GET USER INFO
+User places a name and phone number onto the order.
+
+GET USER INPUT PART 1
+User is Prompted with entire menu to select from
+    -Items will have name and associated price
+
+GET USER INPUT PART 2
+        *once choice is made user is then asked to select aditional items / no's
+            -can be done using a check box / fill in the bubbles
+
+
+
+Calculator to aquire tax
+    helper functions: add ==> a+b=c
+                      subtract ==> a-b=c
+                      get total ==> c
+                      get tax total ==> c * tax = tax_t
+                      get final price  ==> c + tax_t = total
+
+
+Items add to a cart that is easy for end user to read.
+Write to File
+
+    Customer: #i Mark Bister
+        ITEM : Burger
+        YES: Lettus Tomato Onion
+        NO: Baccon
+    
+    TOTAL: $XXX.XX
+
+system then repeats until the user enters checkout. 
+
+
+Final confirmation from the user before order is place and sent.
+
+
+
+
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+ <!-- 
+    <p style="font-size: 16px"> 
+						
+
+
+			
+        Appetizers <br>
+
+        O.P. Fries (other place fries) ....................... $3.99 <br>
+        Tater Tots .................................................... $3.99 <br>
+        Sweet Potato Fries ..................................... $4.99 <br>
+        Onion Rings ............................................... $4.99 <br>
+        Mini Corn Dogs .......................................... $4.99 <br>
+        Deep Fried Pickles ..................................... $5.49 <br>
+        Jalapeno Poppers ...................................... $5.49 <br>
+        Mozzarella Cheese Strips ........................... $5.99 <br>
+        Wisconsin White Cheddar Curds ................ $5.49 <br>
+        Fiery Fingers .............................................. $5.49 <br>
+        Buffalo Balls ............................................... $5.49 <br>
+        Bleu Balls .................................................. $5.49 <br>
+        Beer Battered Chicken Drummies ............. $5.99 <br>
+        Chicken Strips .......................................... $5.49 <br>
+        Chicken Gizzards .................................... $5.49 <br>
+        Popcorn Chicken ..................................... $5.49 <br>
+        Mini Tacos ................................................ $5.49 <br>
+        Breaded Mushrooms ............................... $5.49 <br>
+        Corn Chaff Bites ..................................... $5.49 <br>
+        Super Nachos .......................................... $7.99 <br>
+            It's a meal in itself! <br>
+        Combination Platter .................................. $7.99 <br>
+            Chicken strips, beer battered mushrooms, onion rings, mozzarella cheese strips, shrimp, jalapeno cream cheese bites <br>
+        Chicken Quesadilla ................................... $6.99 <br>
+        Mac & Cheese Wedges .................................. $5.49 <br>
+        Beer Battered Shrimp (8) ............................. $5.49 <br>
+        Onion Petals ......................................... $4.99 <br>
+        
+        
+        ********************************************************************************************* <br>
+        Wings  <br>
+        Traditional or Boneless <br>
+        
+         5 Wings ......... $5.99 <br>
+        10 Wings ......... $10.99 <br>
+        20 Wings ......... $18.99 <br>
+        40 Wings ......... $30.00 <br>
+        
+            Sauces <br>
+                Buffalo - Hot <br>
+                Bourbon - A little kick of New Orleans <br>
+                Jamaican Jerk - The taste of Negril <br>
+                Teriyaki - Sweet & Tangy <br>
+                BBQ - Our famous homemade sauce <br>
+                Ranch - A tasty favorite! <br>
+                Honey Mustard - Mild & Sweet <br>
+                Cajun Dry Rub <br>
+                Thai Chili - Sweet & Sassy <br>
+                Sweet & Spicy Plum - A little zippy <br>
+                Applewood Dry Rub <br>
+        
+        
+            THURSDAY NIGHT, ALL YOU CAN EAT WINGS $9.99 <br>
+        
+        
+        
+        ********************************************************************************************* <br>
+        
+        
+        Big Baskets <br>
+        
+        All baskets are served with O.P fries, a pickle spear, your choice of dipping sauce - Rance, BBQ, Honey Mustard, Bleu Cheese, Franks Hot, Cocktail or our Homemade Tartar sauce. Extra sauces .50c each <br>
+        
+        Chicken Strips ................................ $8.49 <br>
+        Atlantic Cod Strips ........................... $8.49 <br>
+        Beer Battered Drummies ........................ $8.49 <br>
+        Popcorn Chicken ............................... $8.49 <br>
+        Butterfly Shrimp .............................. $8.49 <br>
+        Fisherman's Basket ............................ $9.99 <br>
+            *includes Flounder, Scallops, & Shrimp <br>
+        
+        
+        
+        ********************************************************************************************* <br>
+        
+        
+        Salads <br>
+        
+        Chef Salad ....................... $7.49 <br>
+            Turkey, ham, shredded cheese, black olives, <br>
+            onions and tomatoes on a bed of iceberg lettuce <br>
+        
+        Taco Salad ....................... $8.49 <br>
+            Shredded cheese, black olives, tomatoes and generous portion <br>
+            of taco meat on a bed of iceberg lettuce with sour cream and salsa <br>
+        
+        Chicken Caesar Salad ....................... $8.49 <br>
+            A grilled chicken breast served on a bed of iceberg lettuce, <br>
+            tomatoes, shredded cheese and onions served with Caesar or ranch dressing. <br>
+        
+        Buffalo Chicken Salad ....................... $8.49 <br>
+            A grilled chicken breast covered in hot sauce, served with onions, <br>
+            tomatoes and shredded cheese served on a bed of iceberg lettuce. <br>
+        
+        
+        
+        
+        ********************************************************************************************* <br>
+        
+        
+        
+        
+        
+        Entrees <br>
+            Served with a dinner salad and your choice of O.P fries, <br>
+            Sweet Potato Fries or Tots <br>
+        
+        Country Crispy Chicken ....................... $9.99 <br>
+        
+            4 pieces of crispy and juicy fried chicken <br>
+        
+        
+        
+        
+        ********************************************************************************************* <br>
+        
+        
+        OUR FAMOUS BURGERS <br>
+            Our burgers are made from 100% fresh Angus beef,  <br>
+            ground fresh and hand pattied daily (except Sunday) All burgers served with <br>
+            O.P. Fries, Substitute Onion Rings, Tots, Sweet Potato Fries, Salad or Jo's Potato Salad (Seasonal) for $1.50 more. <br>
+        
+        The Other Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty built the way you want it, Choice of toppings include: cheese (American, Swiss, Pepper Jack or Provolone), <br>
+            bacon, mushrooms, sauerkraut, jalapenos, lettuce, tomatoes, onions (raw or sauteed) Additional cheese .50 per slice. <br>
+        The McOther Burger ....................... $9.25 <br>
+            Two, fresh 1/4 lb. burger patties with American cheese, lettuce, raw onion, pickles and our special sauce on a toasted bun. <br>
+        The Burger ....................... $8.25 <br>
+            The jr. version of the Other Burger. A 1/4 lb. burger with your choice of cheese (American, Swiss, Pepper Jack or Provolone), <br>
+            lettuce, tomatoes and onions (raw or sauteed) Additional items .50c each <br>
+        Patty Melt ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with American and Swiss cheese, sauteed onions and our homemade 1,000 island dressing served on rye toast. <br>
+        The Klaw Slaw Burger ....................... $9.25 <br>
+            An O.P favorite! Fresh 1/3 lb. patty, topped with sauteed onions, Swiss cheese and our homemade coleslaw, served on a toasted bun. <br>
+        The Bleu Cheese Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with bleu cheese dressing <br>
+        The Reuben Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with Swiss cheese, corned beef, kraut and 1,000 island dressing, served on pumpernickel toast <br>
+        The Peanut Butter Bacon Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with bacon, mayo, raw onion, provolone cheese and smothered in peanut butter, served on Texas toast. <br>
+        The Op BBQ Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with American cheese, ham and an onion ring, covered with our homemade BBQ sauce and served on a toasted bun. <br>
+        The Op Apple Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with bacon, American cheese, warmed candied apple rings and topped with warm maple syrup, served on a toasted bun <br>
+        Bourbon Street Burger ....................... $9.25 <br>
+            Fresh 1/3 lb. patty, topped with Provolone cheese, two jalapeno poppers, covered in bourbon sauce. Served on a toasted bun <br>
+        The D.O.B ....................... $13.99 <br>
+            Two fresh 1/3 lb. patties, topped with all the same options of "The Other Burger" all on a toasted bun <br>
+        
+        
+        ********************************************************************************************* <br>
+        
+        
+        Sandwitches <br>
+            Served with kettle chips and a pickle spear. Substitute O.P Fries, Onion Rings, Tots, Salad, Sweet Potato Fries or Jo's Potato Salad (Seasonal) for $1.50 more. <br>
+        
+        Fish Sandwich ....................... $7.99 <br>
+            Two breaded fillets of Atlantic Cod, served with lettuce, tomato and our homemade tartar sauce <br>
+        Pork Tenderloin ....................... $7.99 <br>
+            Breaded, fried and served with lettuce, tomato, mayo and served on a toasted bun. <br>
+        Chicken Breast Sandwich ....................... $7.99 <br>
+            Choose either grilled or breaded chicken breast, served with lettuce, tomato and mayo on a toasted bun. <br>
+        Buffalo Chicken ....................... $7.99 <br>
+            The same as above, but HOTTER. "Much HOTTER" <br>
+        BLT ....................... $7.99 <br>
+            Smokehouse bacon, fried crisp with lettuce, tomato and mayo. <br>
+        Clubhouse ....................... $7.99 <br>
+            Our classic BLT with a 2nd layer of turkey and ham. <br>
+        Steak Sandwich ....................... $7.99 <br>
+            5 oz. butterfly cut sirloin served on Texas toast. <br>
+        French Dip Sandwich ....................... $7.99 <br>
+            Grilled sirloin covered with melted Swiss cheese on a toasted bun, with au jus for dipping. Add sauteed onions 50 Cents  <br>
+        Chicken Bacon Melt ....................... $7.99 <br>
+            Crispy chicken strips, bacon and Pepperjack cheese served on Texas toast <br>
+        GYRO (pronounced "Year O") ....................... $7.99 <br>
+            Sliced lamb, piled on a warm pita bread with tomato, onions and a side of cucumber sauce. <br>
+        Reuben Or Rachel ....................... $7.99 <br>
+            Sliced corned beef or turkey, Swiss cheese, sauerkraut and our homemade 1,000 island dressing on dark pumpernickel <br>
+        Philly Cheesesteak Or Chicken Philly Sandwich ....................... $7.99 <br>
+            Grilled sirloin or chicken breast with green peppers, mushrooms, sauteed onions and swiss cheese on a toasted sub roll <br>
+        Chicken Cordon Bleu ....................... $7.99 <br>
+            Your choice of grilled or breaded chicken breast, topped with sliced honey baked ham, Swiss cheese, lettuce, tomato, and mayo. <br>
+        Man sized Grilled Cheese ....................... $8.99 <br>
+            American and Swiss cheese with mozzarella sticks, bacon, fried onions and mushrooms smushed on texas toast. Served with a side of marinara sauce. <br>
+        OP Gordita ....................... $8.49 <br>
+            Grilled sirloin, green peppers, sauteed onions, and mushrooms, smothered in pepper jack and sour cream, wrapped in a warm pita bread. <br>
+        
+        
+        ********************************************************************************************* <br>
+        
+        Lo Carb Wraps <br>
+            Wraps are served with kettle chips and a pickle spear. Substitute O.P. Fries, Onion Rings, Tots, Salad, Sweet Potato Fries or Jo's Potato Salad (Seasonal) for $1.50 more. <br>
+        
+        Chicken Caesar Wrap ....................... $8.49 <br>
+            Our lean grilled chicken breast with shredded cheese, lettuce, tomatoes, onions, and drizzled with our creamy Caesar dressing wrapped in a warm flour tortilla <br>
+        
+        Buffalo Chicken Wrap ....................... $8.49 <br>
+            Spicy hot buffalo chicken with shredded cheddar, lettuce, tomatoes, and onions, wrapped in a warm flour tortilla. <br>
+        
+        Philly Cheese or Chicken Wrap ....................... $8.49 <br>
+            Grilled sirloin steak or chicken breast with sauteed onions, green peppers, mushrooms, lettuce, tomatoes, Swiss cheese and mayo, wrapped in a warm flour tortilla <br>
+        
+        Taco Wrap ....................... $8.49 <br>
+            Seasoned taco meat, shredded cheese, black olives, lettuce, tomatoes, salsa and sour cream, wrapped in a warm flour tortilla. <br>
+        
+        Cheeseburger Wrap ....................... $8.49 <br>
+            1/4 lb. patty with American cheese, lettuce, tomatoes, onions, pickles, and our homemade 1,000 island dressing, wrapped in a warm flour tortilla <br>
+        
+        Club Wrap ....................... $8.49 <br>
+            Bacon, honey baked ham, turkey, shredded lettuce, tomatoes, shredded cheese and mayo, wrapped in a warm flour tortilla <br>
+        
+        Thai Chili Chicken Wrap ....................... $8.49 <br>
+            Crispy chicken with provolone cheese, onions, ranch dressing and thai chili sauce, topped with sweet pepper slaw, wrapped in a warm flour tortilla <br>
+        
+        Junk Wrap ....................... $8.49 <br>
+            Nacho cheese, a fiery finger, bacon, mozzarella stick and a macaroni wedge, wrapped in a warm flour tortilla. <br>
+        
+        
+        ********************************************************************************************* <br>
+        
+        Pizza Menu <br>
+            MADE TO ORDER PIZZA <br>
+                Available 11:00am-9:00pm Monday - Saturday | 12:00pm - 8:00pm Sunday <br>
+        
+            *BUILD YOUR OWN PIZZA (12 INCH PIE)* <br>
+                1-2 TOPPING $11.99 <br>
+                3-4 TOPPINGS $13.99 <br>
+                5+ TOPPINGS $15.99 <br>
+        
+        Ingredient Options <br>
+        Cheese | Pepperoni | Sausage | Hamburger | Ham | Chicken | Bacon | Black Olives | Green Olives | Green Pepper | Onion | Mushroom | Pineapple | Jalapeno | Pickles | Tomatoes <br>
+        
+        Specialty Pizza  <br>
+            $13.99 <br>
+                BBQ Chicken <br>
+                Buffalo Chicken <br>
+                Chicken Bacon Ranch <br>
+                Chicken Alfredo <br>
+        
+            $15.99 <br>
+                Taco Pizza <br>
+        
+        All Pizzas Available As A Person Size Pie $6.99 <br>
+        
+        
+        
+        
+        ********************************************************************************************* <br>
+        
+        
+        For The Young Ones <br>
+        
+            Hamburger .................................... $5.49 <br>
+            Cheese burger ................................ $5.99 <br> 
+            Mini Corn Dogs ............................... $5.49 <br>
+            Chicken Tenders .............................. $5.49 <br>
+            Popcorn Chicken .............................. $5.49 <br>
+            Mac-N-Cheese Wedges .......................... $5.49 <br>
+            Grilled cheese Sandwich ...................... $5.49 <br>
+        
+        
+
+</p> -->

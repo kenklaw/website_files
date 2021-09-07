@@ -1,0 +1,78 @@
+
+Main Website
+    Button - PLACE ORDER
+
+        NEW PAGE(1) - Please enter name and phone number
+            Write that data to a blank file 
+                Click Submit
+
+                NEW PAGE(2) - Select from the following items
+                    *APPS
+                          - O.P. Fries,  $3.99
+                            Tater Tots $3.99
+                            Sweet Potato Fries $4.99
+                            Onion Rings $4.99
+                            Mini Corn Dogs $4.99
+                            Deep Fried Pickles $5.49
+                            Jalapeno Poppers $5.49
+                            Mozzarella Cheese Strips $5.99
+                            Wisconsin White Cheddar Curds $5.49
+                            Fiery Fingers $5.49
+                            Buffalo Balls $5.49
+                            Bleu Balls $5.49
+                            Beer Battered Chicken Drummies $5.99
+                            Chicken Strips $5.49
+                            Chicken Gizzards $5.49
+                            Popcorn Chicken $5.49
+                            Mini Tacos $5.49
+                            Breaded Mushrooms $5.49
+                            Corn Chaff Bites $5.49
+                            Super Nachos $7.99	
+                            Combination Platter $7.99
+                            Chicken Quesadilla  $6.99
+                            Mac & Cheese Wedges $5.49
+                            Beer Battered Shrimp (8) $5.49
+                            Onion Petals $4.99
+                    
+                    *Baskets 
+                          - Chicken Strips $8.49
+                            Atlantic Cod Strips $8.49
+                            Beer Battered Drummies $8.49
+                            Popcorn Chicken $8.49
+                            Butterfly Shrimp $8.49
+                            Fishermens Basket $9.99
+                        *includes Flounder, Scallops, & Shrimp
+
+                            Sauces Ranch, BBQ, Honey Musard, Bleu Cheese, Franks hot, Cocktail or our Homemade Tartar sauce. Extra sauces .50c each
+                    *Wings 
+                           - 5 Wings $5.99
+                            10 Wings $10.99
+                            20 Wings $18.99
+                            40 Wings $30.00
+
+                           - Sauces
+                                Buffalo - Hot
+                                Bourbon - A little kick of New Orleans
+                                Jamaican Jerk - The tase of Negril
+                                Teriyaki - Sweet & Tangy
+                                BBQ - Our famous homemade sauce
+                                Ranch - A tasty favorite!
+                                Honey Mustard - Mild & Sweet
+                                Cajun Dry Rub
+                                Thai Chili - Sweet & Sassy
+                                Sweet & Spicy Plum - A little zippy
+                                Applewood Dry Rub
+                    *Burgers
+                            - 
+                    *Wraps
+                    *Sandwiches
+                    *Drinks
+                    *Extras
+
+                    Subsitutute 
+                        Yes
+                        No
+
+                    Sauces
+                        
+
